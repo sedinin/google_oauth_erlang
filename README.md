@@ -1,4 +1,4 @@
-##### Google OAuth 2.0 for Server to Server Applications. This application will get a new access token for every one hour.
+##### Erlang Google OAuth 2.0 API client for Server to Server Applications. This application will get a new access token for every one hour.
 
 
 ####### How to get the RSA Private Key file before running the application
