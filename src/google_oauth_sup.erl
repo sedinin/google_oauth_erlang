@@ -1,4 +1,5 @@
--module(oauth2_s2s_sup).
+-module(google_oauth_sup).
+
 -behaviour(supervisor).
 
 -export([start_link/0]).
@@ -8,5 +9,4 @@ start_link() ->
 	supervisor:start_link({local, ?MODULE}, ?MODULE, []).
 
 init([]) ->
-	Procs = [],
-	{ok, {{one_for_one, 1, 5}, Procs}}.
+	{ok, {{one_for_one, 1, 5}, []}}.
