@@ -1,0 +1,8 @@
+{application,google_oauth,
+ [{description,"Erlang Google OAuth 2.0 API client to generate API token for Google S2S requests"},
+  {vsn,"1.0.0"},
+  {registered,[google_oauth_sup]},
+  {applications,[kernel,stdlib,inets,crypto,public_key,ssl]},
+  {mod,{google_oauth_app,[]}},
+  {modules,[]},
+  {env,[]}]}.
